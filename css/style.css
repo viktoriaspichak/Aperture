@@ -177,7 +177,7 @@ align-items: center}
     max-width: 1168px;
 }
 .what_we_do h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -187,7 +187,7 @@ align-items: center}
     margin-bottom: 15px;
 }
 .what_we_do h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -218,7 +218,7 @@ align-items: center}
     box-sizing: border-box;
 }
 .what_we_do .description h4{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -229,7 +229,7 @@ align-items: center}
     margin-bottom: 15px;
 }
 .what_we_do .description p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -250,5 +250,187 @@ align-items: center}
     padding: 5px 10px 5px 5px;
     display: inline-flex;
     align-items: center}
+.what_we_do .d_flex_container article .description_part2{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 32px 30px 30px;
+    box-sizing: border-box;}
+.what_we_do .description_part2 h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do .description_part2 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom:20px;
+}
+.drone{
+    margin-top: 16px;
+}
+.what_we_do .d_flex_container article .description_part3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 32px 30px 30px;
+    box-sizing: border-box;
+}
+.what_we_do .description_part3 h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.what_we_do .description_part3 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
+}
+.wild{
+    margin-top: 16px;
+}
+.what_we_do .d_flex_container article .description_part4{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 32px 30px 30px;
+    box-sizing: border-box;}
+.what_we_do .description_part4 h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.what_we_do .description_part4 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
+}
+/*forth_banner*/
+.forth_banner{
+    background-image: url("../images/background.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+.forth_banner .container{
+    max-width:298px;
+    margin-right:62px;
+}
+.forth_banner .container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.forth_banner .container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*fifth_baner*/
+.fifth_banner{
+    background-image: url("../images/leaves.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+.fifth_banner .container{
+    max-width: 273px;
+    margin-right:87px;
+}
+.fifth_banner .container h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.fifth_banner .container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+/*sixth_banner*/
+.sixth_banner{
+    background-image: url("../images/mountains.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+.sixth_banner .container{
+    max-width: 254px;
+    margin-right:106px;
+}
+.sixth_banner .container h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sixth_banner .container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 
 
