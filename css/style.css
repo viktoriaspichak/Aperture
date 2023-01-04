@@ -58,6 +58,7 @@ header nav li:last-of-type a{
     align-items: flex-end;
     padding-bottom:71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner .container{
     max-width:580px;
@@ -344,6 +345,7 @@ header nav li:last-of-type a{
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
 }
 .forth_banner .container{
     max-width:298px;
@@ -377,6 +379,7 @@ header nav li:last-of-type a{
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
 }
 .fifth_banner .container{
     max-width: 273px;
@@ -409,6 +412,7 @@ header nav li:last-of-type a{
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
 }
 .sixth_banner .container{
     max-width: 254px;
@@ -566,6 +570,105 @@ footer div a{
     margin-right: 10px;
     margin-left: 10px;
 }
+.position_items{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+}
+.position_items li{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.position_items li:before{
+    content:"";
+    display: inline-block;
+    background-image: url("../images/Combined-Shape.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.position_items li:nth-child(2):before{
+    background-image: url("../images/Combined-Shape1.svg");
+}
+.position_items li:nth-child(3):before{
+    background-image: url("../images/Combined-Shape2.svg");
+    width: 32px;
+}
+.position_items li:nth-child(4):before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+}
+.we_use{
+    background-color: black;
+    position: relative;
+}
+.we_use .container{
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+}
+.we_use .information{
+    max-width:514px;
+}
+.we_use .information h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom:6px;
+}
+.we_use .information h3{font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.we_use .information p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.we_use .banner_we_use{
+    background-image: url("../images/banner_we_use.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+.we_use .get_in_touch{background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px 5px 5px;
+    display: inline-flex;
+    align-items: center}
 
 
 
