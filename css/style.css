@@ -121,6 +121,14 @@ header nav li:last-of-type a{
     justify-content: space-between;
     align-items: center;
 }
+.ph_brands a{
+    max-width: 128px;
+    display: inline-block;
+}
+.ph_brands .owl-carousel{
+    display: flex;
+    align-items: center;
+}
 /*third banner*/
 .third_banner{
     padding-top:113px;
@@ -669,6 +677,31 @@ footer div a{
     padding: 5px 10px 5px 5px;
     display: inline-flex;
     align-items: center}
+.ph_brands .owl-nav .owl-prev{
+    position: absolute;
+    left: -50px;
+    top: 15px;
+}
+.ph_brands .owl-nav .owl-prev:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+.ph_brands .owl-nav .owl-next{
+    position: absolute;
+    right:  -50px;
+    top: 15px;
+}
+.ph_brands .owl-nav .owl-next:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f054";
+    color: white;
+    display: inline-block;
+    font-size: 40px;}
 
 
 @media only screen and (max-width: 1260px){
