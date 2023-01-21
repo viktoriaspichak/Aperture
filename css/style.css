@@ -703,135 +703,6 @@ footer div a{
     display: inline-block;
     font-size: 40px;}
 
-
-@media only screen and (max-width: 1260px){
-    header{
-        padding: 15px;
-    }
-    .we_use{
-        padding: 15px;
-    }
-    .second_banner{
-        padding: 15px;
-    }
-    footer{
-        padding: 15px;
-    }
-    .what_we_do .d_flex_container{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .what_we_do article:first-of-type{
-        margin-bottom: 12px}
-}
-@media only screen and (max-width: 1060px){
-    .we_use .information{max-width: 140px;
-    }
-    .we_use .information h4{
-        font-size:10px;
-    }
-    .we_use .information h3{
-        font-size: 25px;
-    }
-}
-@media only screen and (max-width: 850px){
-   header nav ul li a{
-       font-size: 10px;
-   }
-}
-footer ul li a{
-    font-size: 11px;
-}
-.second_banner .ph_brands a{
-    margin: 10px;
-}
-@media only screen and (max-width: 776px){
-.second_banner{
-    height: 50%;
-}
-.second_banner .ph_brands{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;}
-
-@media only screen and (max-width: 728px){
-    header nav li:first-of-type a{
-        font-size:11px;
-    }
-    header nav li:last-of-type a{
-        color:#000000;
-        background: #FFFFFF;
-        border-radius: 8px;
-        padding: 2px 10px 2px 3px;
-        font-size: 9px;
-        position: relative;
-        right: 2px;
-}
-header nav ul{display: inline-block}
-}
-@media only screen and (max-width: 724px){
-    .main_banner .container{
-        padding: 0 7px;
-    }
-    .third_banner .container{
-        padding: 0 7px;
-    }
-    .forth_banner .container{
-        padding: 0 7px;}
-    .fifth_banner .container{
-        padding: 0 7px;
-    }
-    .sixth_banner .container{
-        padding: 0 7px;}
-    .forma{
-        max-width: 250px;
-    }
-    footer .first_chept{
-        flex-wrap: wrap;
-    }
-    footer .logo_cont p{
-        font-size: 9px;
-        margin-bottom: 20px;
-    }
-.main_banner{
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.forth_banner{
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.sixth_banner{
-    background-position: center center;
-    background-repeat: no-repeat;
-}}
-@media only screen and (max-width: 478px){
-    .forma{
-        height: 26px;
-        max-width:229px;
-        margin-left: 5px;
-    }
-    .forma form{
-        padding-top:5px;
-        padding-right: 3px;
-        padding-bottom: 5px;
-    }
-    .text{
-        width: 135px;
-    }
-    .button{
-        width:28px;
-        max-width: 28px;
-        height:15px;
-    }
-    .position_items li{
-        font-size: 9px;
-    }
-    .we_use .position_items{
-        display: none;
-    }
-}}
-
 .ui-dialog-titlebar{
     background-color: black;
     color: #FFFFFF;
@@ -840,8 +711,6 @@ header nav ul{display: inline-block}
 .ui-dialog{
     width: 100% !important;
     max-width: 280px !important;
-    top: 150px!important;
-    left: 575px!important;
     border-radius: 20px;
     padding: 0px;
 }
@@ -917,4 +786,8 @@ button{
     border-radius: 5px;
     display: block;
     margin: auto;
+}
+.logo{
+    position: relative;
+    z-index: 99;
 }
