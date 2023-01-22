@@ -18,6 +18,13 @@
     .what_we_do article:first-of-type{
         margin-bottom: 12px}
 }
+.ph_brands .owl-nav .owl-prev{
+    position: absolute;
+    top: 36px;}
+.ph_brands .owl-nav .owl-next{
+    position: absolute;
+    top: 36px;
+}
 @media only screen and (max-width: 1060px){
     .we_use .information{max-width: 140px;
     }
